@@ -38,10 +38,11 @@ def run_rectangle():
 
     for y in range(550, 90-1, -10):
         render_frame(50,y)
+
     pass
 
 while True:
-    #run_circle()
+    run_circle()
     run_rectangle()
     break
     
